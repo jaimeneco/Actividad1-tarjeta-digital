@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    border: 5px solid burlywood;
+    border-radius: 20px;
+}
+
+.Header{
+    background: burlywood;
+}
+
+.Header-h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px;
+}
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    /* background: #0c7dbe; */
+    border-radius: 20px;
+    color:white;
+}
+
+.Main-content{
+    background: burlywood;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+.Main-ubication{
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-image{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 2px black;
+}
+
+.Main-image:hover{
+    transform: scale(1.05);
+}
+
+.Text-info{
+    background: white;
+    padding: 20px;
+    border: 3px solid burlywood;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:black
+
+}
+.Link-dato{
+    text-decoration: none;
+    background: burlywood;
+    border-radius: 20px;
+    padding:20px;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 150px 20px;
+    color: white;
+}
+.Link-dato:hover{
+    transform: scale(1.3) ;
+}
